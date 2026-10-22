@@ -1,0 +1,93 @@
+OpenSTA 2.4.0 ac3479bc24 Copyright (c) 2021, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+
+===== ff_n40C_1v95: ICG A =====
+Startpoint: _91_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: u_icg_A (rising clock gating-check end-point clocked by clk)
+Path Group: clk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _91_/CLK (sky130_fd_sc_hd__dfrtp_1)
+   0.22    0.22 v _91_/Q (sky130_fd_sc_hd__dfrtp_1)
+   0.00    0.22 v u_icg_A/GATE (sky130_fd_sc_hd__dlclkp_1)
+           0.22   data arrival time
+
+  10.00   10.00   clock clk (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+          10.00 ^ u_icg_A/CLK (sky130_fd_sc_hd__dlclkp_1)
+  -0.08    9.92   library setup time
+           9.92   data required time
+---------------------------------------------------------
+           9.92   data required time
+          -0.22   data arrival time
+---------------------------------------------------------
+           9.70   slack (MET)
+
+
+
+===== ff_n40C_1v95: ICG B =====
+Startpoint: _92_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: u_icg_B (rising clock gating-check end-point clocked by clk)
+Path Group: clk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _92_/CLK (sky130_fd_sc_hd__dfrtp_1)
+   0.22    0.22 v _92_/Q (sky130_fd_sc_hd__dfrtp_1)
+   0.00    0.22 v u_icg_B/GATE (sky130_fd_sc_hd__dlclkp_1)
+           0.22   data arrival time
+
+  10.00   10.00   clock clk (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+          10.00 ^ u_icg_B/CLK (sky130_fd_sc_hd__dlclkp_1)
+  -0.08    9.92   library setup time
+           9.92   data required time
+---------------------------------------------------------
+           9.92   data required time
+          -0.22   data arrival time
+---------------------------------------------------------
+           9.70   slack (MET)
+
+
+
+===== ff_n40C_1v95: ICG C =====
+Startpoint: _81_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: u_icg_C (rising clock gating-check end-point clocked by clk)
+Path Group: clk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _81_/CLK (sky130_fd_sc_hd__dfrtp_1)
+   0.22    0.22 v _81_/Q (sky130_fd_sc_hd__dfrtp_1)
+   0.00    0.22 v u_icg_C/GATE (sky130_fd_sc_hd__dlclkp_1)
+           0.22   data arrival time
+
+  10.00   10.00   clock clk (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+          10.00 ^ u_icg_C/CLK (sky130_fd_sc_hd__dlclkp_1)
+  -0.08    9.92   library setup time
+           9.92   data required time
+---------------------------------------------------------
+           9.92   data required time
+          -0.22   data arrival time
+---------------------------------------------------------
+           9.70   slack (MET)
+
+

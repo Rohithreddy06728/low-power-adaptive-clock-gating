@@ -1,0 +1,19 @@
+# Simulation outputs
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+v3_sim
+icg_cell_test
+icg_tb_sim
+clock_gating_sim
+clock_gating_pd.vcd
+clock_gating_v3.vcd
+
+# Temporary and editor files
+*.tmp
+*~
+.DS_Store
+
+# Keep selected project waveforms
+!V3_Adaptive_Clock_Gating/waveforms/*.vcd

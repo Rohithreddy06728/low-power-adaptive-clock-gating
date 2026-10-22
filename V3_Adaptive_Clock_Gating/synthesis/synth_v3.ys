@@ -1,0 +1,18 @@
+read_liberty -lib /home/vsduser/Desktop/BabySoC_Simulation/src/skywater-pdk-libs-sky130_fd_sc_hd/timing/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog adaptive_clock_gating_v3.v
+
+hierarchy -check -top adaptive_clock_gating_v3
+
+synth -top adaptive_clock_gating_v3 -noabc
+
+dfflibmap -liberty /home/vsduser/Desktop/BabySoC_Simulation/src/skywater-pdk-libs-sky130_fd_sc_hd/timing/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+abc -liberty /home/vsduser/Desktop/BabySoC_Simulation/src/skywater-pdk-libs-sky130_fd_sc_hd/timing/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+clean
+check
+
+write_verilog -noattr synthesized_clock_gating_v3_mapped.v
+
+stat -liberty /home/vsduser/Desktop/BabySoC_Simulation/src/skywater-pdk-libs-sky130_fd_sc_hd/timing/sky130_fd_sc_hd__tt_025C_1v80.lib

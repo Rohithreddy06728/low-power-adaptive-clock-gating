@@ -1,0 +1,19 @@
+Design Name: adaptive_clock_gating_v3
+Run Directory: /openLANE_flow/designs/low_power_adaptive_clock_gating/runs/21-10_12-40
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openLANE_flow/designs/low_power_adaptive_clock_gating/runs/21-10_12-40/reports/magic//39-magic.drc
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openLANE_flow/designs/low_power_adaptive_clock_gating/runs/21-10_12-40/results/lvs/adaptive_clock_gating_v3.lvs_parsed.lef.log
+LVS reports no net, device, pin, or property mismatches.
+Total errors = 0
+----------------------------------------
+
+Antenna Summary:
+Source: /openLANE_flow/designs/low_power_adaptive_clock_gating/runs/21-10_12-40/reports/routing//41-antenna.rpt
+Number of pins violated: 0
+Number of nets violated: 0

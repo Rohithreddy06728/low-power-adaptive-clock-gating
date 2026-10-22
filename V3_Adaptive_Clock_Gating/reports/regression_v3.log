@@ -1,0 +1,7 @@
+VCD info: dumpfile clock_gating_v3.vcd opened for output.
+PASS: Reset disables all three clock gates
+PASS: Request A enables only clock A
+PASS: Request B enables clock B
+PASS: Wake enables all three clocks
+PASS: All clocks disable after the idle timeout
+RESULT: ALL V3 TESTS PASSED
