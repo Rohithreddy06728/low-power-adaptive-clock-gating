@@ -84,3 +84,23 @@ The final layout can be opened in KLayout using a generated GDS file.
 ## Simulation Testbench
 
 `V3_Adaptive_Clock_Gating/simulation/tb_adaptive_clock_gating_v3.v`
++
+## Project Screenshots
+
+### RTL Simulation Waveform
+![Simulation Waveform](docs/screenshots/simulation_waveform.png)
+
+### Yosys Synthesis Results
+![Synthesis Results](docs/screenshots/synthesis_results.png)
+
+### Final GDS Layout
+![Final GDS Layout](docs/screenshots/final_gds_layout.png)
+
+### Routed Physical Design
+![Routed Layout](docs/screenshots/routed_layout.png)
+
+### Functional Verification
+![Verification Results](docs/screenshots/verification_results.png)
+
+### Physical Verification
+![Physical Verification](docs/screenshots/physical_verification.png)
