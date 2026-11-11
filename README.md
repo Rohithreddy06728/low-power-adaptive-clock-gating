@@ -118,3 +118,11 @@ The final layout can be opened in KLayout using a generated GDS file.
 
 ### Final Routed Layout
 ![Routed Layout](docs/screenshots/routed_layout.png)
+
+## Synthesis Diagrams
+
+### RTL Logic Diagram
+![RTL Logic Diagram](docs/screenshots/synthesis_diagram.png)
+
+### Technology-Mapped Synthesis Diagram (SKY130)
+![Technology-Mapped Synthesis Diagram](docs/screenshots/synthesis_mapped_diagram.png)
